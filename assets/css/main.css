@@ -141,13 +141,15 @@ input, select, textarea {
 
 	p, ul, ol, dl, table, blockquote {
 		margin: 0 0 2em 0;
+		text-align: justify;
+		font-size: 27px;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: inherit;
 		font-weight: 600;
 		line-height: 1.75em;
-		margin-bottom: 1em;
+		margin-bottom: -0.25em;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2597,6 +2599,7 @@ input, select, textarea {
 					display: block;
 					padding: 1.5em 0.5em 1.35em 0.5em;
 					font-weight: bold;
+					font-size: 16px;
 				}
 
 				#nav > ul > li:first-child {
@@ -2686,7 +2689,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/banner.png");
 		background-position: center center;
 		background-size: cover;
 		height: 28em;
@@ -2837,7 +2840,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				height: 24em;
+				height: 35em;
 			}
 
 	}
