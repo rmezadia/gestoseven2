@@ -40,6 +40,19 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+#logo{
+	 width: 100px;
+  height: 100px;
+}
+
+#datosDireccion{
+	color: black;
+}
+.icons a {
+				color: #999;
+				font-size: 12px;
+}
+
 body {
 	line-height: 1;
 }
@@ -141,8 +154,8 @@ input, select, textarea {
 
 	p, ul, ol, dl, table, blockquote {
 		margin: 0 0 2em 0;
-		text-align: justify;
-		font-size: 27px;
+		/*text-align: justify;*/
+		font-size: 16px;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -186,8 +199,8 @@ input, select, textarea {
 
 	hr {
 		border-top: solid 1px #e0e0e0;
-		border: 0;
-		margin-bottom: 1.5em;
+		/*border: 0;*/
+		/*margin-bottom: 1.5em;*/
 	}
 
 	blockquote {
@@ -2182,7 +2195,7 @@ input, select, textarea {
 /* Lists */
 
 	ol {
-		list-style: decimal;
+		/*list-style: decimal;*/
 		padding-left: 1.25em;
 	}
 
@@ -2216,7 +2229,9 @@ input, select, textarea {
 	ul.icons {
 		cursor: default;
 		list-style: none;
-		padding-left: 0;
+		padding-left: 40px;
+		padding-top: 20px;
+		/*padding-right: 1200px;*/
 	}
 
 		ul.icons li {
@@ -2230,7 +2245,7 @@ input, select, textarea {
 			}
 
 			ul.icons li a, ul.icons li span {
-				font-size: 2em;
+				font-size: 1.0em;
 				border: 0;
 			}
 
@@ -2546,7 +2561,8 @@ input, select, textarea {
 		text-align: center;
 		padding: 3em 0 0 0;
 		background-color: #fff;
-		background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");
+		/*background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");*/
+		background-image: url("images/logo.png");
 		background-position: top left,					top left,					top left;
 		background-size: 100% 6em,					100% 6em,					auto;
 		background-repeat: no-repeat,					no-repeat,					repeat;
@@ -2571,6 +2587,7 @@ input, select, textarea {
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		padding: 0;
+		border-top: solid 1px #e0e0e0;
 	}
 
 		#nav:after {
@@ -2686,7 +2703,7 @@ input, select, textarea {
 			margin-top: -1px;
 		}
 
-/* Banner */
+/* Banner gestoseven.html */
 
 	#banner {
 		background-image: url("../../images/banner.png");
@@ -2696,8 +2713,48 @@ input, select, textarea {
 		text-align: center;
 		position: relative;
 	}
+	#banner2 {
+		background-image: url("../../images/banner2.png");
+		background-position: center center;
+		background-size: cover;
+		height: 28em;
+		text-align: center;
+		position: relative;
+	}
+	#banner3 {
+		background-image: url("../../images/banner3.png");
+		background-position: center center;
+		background-size: cover;
+		height: 28em;
+		text-align: center;
+		position: relative;
+	}
+	#banner4 {
+		background-image: url("../../images/banner4.png");
+		background-position: center center;
+		background-size: cover;
+		height: 28em;
+		text-align: center;
+		position: relative;
+	}
+	#banner5 {
+		background-image: url("../../images/logo.png");
+		background-position: center center;
+		background-size: cover;
+		height: 28em;
+		text-align: center;
+		position: relative;
+	}
+	#banner6 {
+		background-image: url("../../images/contacto2.png");
+		background-position: center center;
+		background-size: cover;
+		height: 12em;
+		text-align: center;
+		position: relative;
+	}
 
-		#banner header {
+		#banner #banner2 header {
 			position: absolute;
 			bottom: 0;
 			left: 0;
@@ -2708,26 +2765,26 @@ input, select, textarea {
 			padding: 1.5em 0;
 		}
 
-			#banner header h2 {
+			#banner #banner2 header h2 {
 				display: inline-block;
 				margin: 0;
 				font-size: 1.25em;
 				vertical-align: middle;
 			}
 
-				#banner header h2 em {
+				#banner #banner2 header h2 em {
 					opacity: 0.75;
 				}
 
-				#banner header h2 a {
+				#banner #banner2 header h2 a {
 					border-bottom-color: rgba(255, 255, 255, 0.5);
 				}
 
-					#banner header h2 a:hover {
+					#banner #banner2 header h2 a:hover {
 						border-bottom-color: transparent;
 					}
 
-			#banner header .button {
+			#banner #banner2 header .button {
 				vertical-align: middle;
 				margin-left: 1em;
 			}
@@ -2839,7 +2896,7 @@ input, select, textarea {
 
 		/* Banner */
 
-			#banner {
+			#banner #banner2 {
 				height: 35em;
 			}
 
@@ -2869,13 +2926,14 @@ input, select, textarea {
 		/* Icons */
 
 			ul.icons li a, ul.icons li span {
-				font-size: 1.5em;
+				font-size: 1.0em;
 			}
 
 		/* Header */
 
 			#header {
 				padding: 2em 0 0 0;
+
 			}
 
 				#header h1 {
@@ -2884,7 +2942,7 @@ input, select, textarea {
 
 		/* Banner */
 
-			#banner {
+			#banner #banner2 {
 				height: 20em;
 			}
 
@@ -2996,15 +3054,15 @@ input, select, textarea {
 
 		/* Banner */
 
-			#banner {
+			#banner #banner2 {
 				height: 20em;
 			}
 
-				#banner header h2 {
+				#banner #banner2 header h2 {
 					display: block;
 				}
 
-				#banner header .button {
+				#banner #banner2 header .button {
 					margin: 1em 0 0 0;
 				}
 
@@ -3290,7 +3348,7 @@ input, select, textarea {
 
 		/* Banner */
 
-			#banner {
+			#banner #banner2 {
 				height: 18em;
 			}
 
@@ -3346,11 +3404,11 @@ input, select, textarea {
 
 		/* Banner */
 
-			#banner {
+			#banner #banner2 {
 				height: 20em;
 			}
 
-				#banner header {
+				#banner #banner2 header {
 					padding: 20px;
 				}
 
